@@ -186,6 +186,7 @@ include(":extensions:policy-monitor:store:sql:policy-monitor-store-sql")
 
 
 // modules for launchers, i.e. runnable compositions of the app ------------------------------------
+include(":launchers:connector")
 include(":launchers:data-plane-server")
 include(":launchers:dpf-selector")
 include(":launchers:sts-server")
