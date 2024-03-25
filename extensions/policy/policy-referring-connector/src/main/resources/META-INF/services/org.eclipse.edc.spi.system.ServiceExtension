@@ -20,4 +20,4 @@
 #  Contributors:
 #       sovity GmbH - adaptation and modifications
 #
-de.sovity.edc.extension.policy.ReferringConnectorValidationExtension
+org.eclipse.edc.extension.policy.ReferringConnectorValidationExtension

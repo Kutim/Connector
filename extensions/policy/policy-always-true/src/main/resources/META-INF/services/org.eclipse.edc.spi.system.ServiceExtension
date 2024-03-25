@@ -1,1 +1,1 @@
-de.sovity.edc.extension.policy.AlwaysTruePolicyExtension
+org.eclipse.edc.extension.policy.services.AlwaysTruePolicyExtension
