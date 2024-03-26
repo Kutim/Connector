@@ -52,7 +52,7 @@ dependencies {
 
     implementation(project(":extensions:policy:policy-always-true"))
     implementation(project(":extensions:policy:policy-location-constraint"))
-    implementation(project(":extensions:policy:policy-referring-connector"))
+//    implementation(project(":extensions:policy:policy-referring-connector"))
     implementation(project(":extensions:policy:policy-time-interval"))
 }
 
