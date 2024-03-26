@@ -46,7 +46,7 @@ public class PolicyEvaluationTimeExtension implements ServiceExtension {
         ruleBindingRegistry.bind("use", "contract.negotiation");
         ruleBindingRegistry.bind(KEY_POLICY_EVALUATION_TIME, "contract.negotiation");
         policyEngine.registerFunction(
-                "contract.negotiation",
+                "*",
                 Permission.class,
                 KEY_POLICY_EVALUATION_TIME,
                 new PolicyEvaluationTimeFunction(monitor));
