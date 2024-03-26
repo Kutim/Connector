@@ -6,4 +6,5 @@ plugins {
 dependencies {
     api(project(":spi:common:auth-spi"))
     api(project(":spi:common:policy-engine-spi"))
+    api(project(":spi:control-plane:contract-spi"))
 }
