@@ -207,8 +207,14 @@ include(":extensions:data-plane-selector:store:sql:data-plane-instance-store-sql
 
 include(":extensions:policy-monitor:store:sql:policy-monitor-store-sql")
 
+include(":extensions:policy:policy-always-true")
+include(":extensions:policy:policy-location-constraint")
+include(":extensions:policy:policy-referring-connector")
+include(":extensions:policy:policy-time-interval")
+
 
 // modules for launchers, i.e. runnable compositions of the app ------------------------------------
+include(":launchers:connector")
 include(":launchers:data-plane-server")
 include(":launchers:dpf-selector")
 include(":launchers:sts-server")
