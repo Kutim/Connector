@@ -30,7 +30,7 @@ build
 
 .idea
 .vs
-.vscode
+# .vscode
 
 /secrets
 
