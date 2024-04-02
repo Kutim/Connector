@@ -13,7 +13,7 @@
       "odrl:constraint": {
         "odrl:leftOperand": "POLICY_EVALUATION_TIME",
         "odrl:operator": {
-          "@id": "odrl:gt"
+          "@id": "odrl:lt"
         },
         "odrl:rightOperand": "2022-05-31T22:00:00.000000Z"
       }
