@@ -14,7 +14,8 @@
                               "type": "java",
                               "name": "BaseRuntime",
                               "request": "launch",
-                              "mainClass": "org.eclipse.edc.boot.system.runtime.BaseRuntime",
+                              // "mainClass": "org.eclipse.edc.boot.system.runtime.BaseRuntime",
+                              "mainClass": "${workspaceFolder}/launchers/connector/build/libs/connector.jar",
                               "projectName": "boot",
                               "cwd": "${workspaceFolder}",
                               "env": {
