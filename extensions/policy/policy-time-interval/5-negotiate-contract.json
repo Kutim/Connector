@@ -8,8 +8,9 @@
   "protocol": "dataspace-protocol-http",
   "policy": {
     "@context": "http://www.w3.org/ns/odrl.jsonld",
-    "@id": "Y29udHJhY3QtZGVmaW5pdGlvbg==:a2Fma2Etc3RyZWFtLWFzc2V0:ZWNlZmE4MTctZDRkNy00MDhkLWIzOTYtMWY3YmU5NTA4NmQx",
-    "@type": "odrl:Set",
+    "@id": "Y29udHJhY3QtZGVmaW5pdGlvbg==:a2Fma2Etc3RyZWFtLWFzc2V0:NjZjNzkzMjctZmFlYS00NzJlLTk4MTgtMDkxNmZmNzVlMTk2",
+    "@type": "odrl:Offer",
+    "assigner": "provider",
     "odrl:permission": [
       {
         "odrl:target": "kafka-stream-asset",
