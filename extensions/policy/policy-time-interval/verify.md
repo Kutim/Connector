@@ -1,6 +1,14 @@
 
 
 ```bash
+export EDC_FS_CONFIG=$PWD/launchers/connector/provider.properties
+
+export EDC_FS_CONFIG=$PWD/launchers/connector/consumer.properties
+
+
+# 0 dp
+curl -H 'Content-Type: application/json' -d @extensions/policy/policy-time-interval/0-dataplane.json -X POST "http://localhost:18181/management/v2/dataplanes" -s | jq
+
 
 # asset
 curl -H 'Content-Type: application/json' -d @extensions/policy/policy-time-interval/1-asset.json -X POST "http://localhost:18181/management/v3/assets" -s | jq
