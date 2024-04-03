@@ -23,6 +23,20 @@
       "env": {
         "EDC_FS_CONFIG": "${workspaceFolder}/launchers/connector/provider.properties"
       }
+    },
+    {
+      "type": "java",
+      "name": "consumer",
+      "request": "launch",
+      "mainClass": "org.eclipse.edc.boot.system.runtime.BaseRuntime",
+      "classPaths": [
+        "${workspaceFolder}/launchers/connector/build/libs/connector.jar"
+      ],
+      "projectName": "launchers",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "EDC_FS_CONFIG": "${workspaceFolder}/launchers/connector/consumer.properties"
+      }
     }
   ]
 }
