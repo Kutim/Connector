@@ -30,6 +30,9 @@ dependencies {
     implementation(project(":core:data-plane:data-plane-core"))
     implementation(project(":core:data-plane-selector:data-plane-selector-core"))
 
+    implementation(project(":core:policy-monitor:policy-monitor-core"))
+
+
     implementation(project(":data-protocols:dsp"))
 
     implementation(project(":extensions:common:api:api-observability"))
