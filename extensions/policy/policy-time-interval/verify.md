@@ -29,7 +29,7 @@ curl -H 'Content-Type: application/json' -d @extensions/policy/policy-time-inter
 curl -H 'Content-Type: application/json' -d @extensions/policy/policy-time-interval/5-negotiate-contract.json  -X POST "http://localhost:28181/management/v2/contractnegotiations" -s | jq
 
 # get agreementID 
-curl "http://localhost:28181/management/v2/contractnegotiations/ec25e6d0-9589-4992-8319-985c186fa8f8" -s | jq
+curl "http://localhost:28181/management/v2/contractnegotiations/bb6dba3b-7401-4637-91d9-28561ffa195c" -s | jq
 
 #transfer
 curl -H 'Content-Type: application/json' -d @extensions/policy/policy-time-interval/6-transfer.json -X POST "http://localhost:28181/management/v2/transferprocesses" -s | jq

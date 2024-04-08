@@ -15,7 +15,7 @@
         "odrl:operator": {
           "@id": "odrl:lt"
         },
-        "odrl:rightOperand": "2024-04-08T13:00:00.000000+08:00"
+        "odrl:rightOperand": "2024-04-08T13:15:00.000000+08:00"
       }
     },
     "odrl:prohibition": [],

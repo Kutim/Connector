@@ -8,7 +8,7 @@
   "protocol": "dataspace-protocol-http",
   "policy": {
     "@context": "http://www.w3.org/ns/odrl.jsonld",
-    "@id": "Y29udHJhY3QtZGVmaW5pdGlvbg==:a2Fma2Etc3RyZWFtLWFzc2V0:NDZhYTJiMmItNDg5YS00NDhjLTk2NjQtM2MzNzAyMThiNjY1",
+    "@id": "Y29udHJhY3QtZGVmaW5pdGlvbg==:a2Fma2Etc3RyZWFtLWFzc2V0:ZWYzZGUyNzctY2JhZi00ZGIwLThiMzUtODUyYmRiYzhkN2Ew",
     "@type": "odrl:Offer",
     "assigner": "provider",
     "odrl:permission": [
@@ -22,7 +22,7 @@
           "odrl:operator": {
             "@id": "odrl:lt"
           },
-          "odrl:rightOperand": "2024-04-08T13:00:00.000000+08:00"
+          "odrl:rightOperand": "2024-04-08T13:15:00.000000+08:00"
           }
       }
     ],

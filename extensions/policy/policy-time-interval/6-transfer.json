@@ -9,7 +9,7 @@
   },
   "protocol": "dataspace-protocol-http",
   "assetId": "kafka-stream-asset",
-  "contractId": "f39f4a29-e5fe-40e4-b69d-b2e8ec01f7d1",
+  "contractId": "f9ed72fe-3bb9-464a-90a0-9372b7dac34f",
   "connectorId": "provider",
   "counterPartyAddress": "http://localhost:18182/protocol"
 }
